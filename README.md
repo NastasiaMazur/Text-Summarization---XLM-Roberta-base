@@ -1,4 +1,4 @@
-# Text-Summarization - XLM-Roberta-base
+# Text Summarization - XLM-Roberta-base
 
 In this Project I tried to turn an XLM-R/BERT-like pretrained transformers model trained on a masked learning target into a text summarization model by treating the model as an encoder in an encoder-decoder architecture.
 In the process of completing the assignment, I consulted the tutorials on Huggingface:
