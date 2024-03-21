@@ -2,9 +2,12 @@
 
 In this Project I tried to turn an XLM-R/BERT-like pretrained transformers model trained on a masked learning target into a text summarization model by treating the model as an encoder in an encoder-decoder architecture.
 In the process of completing the assignment, I consulted the tutorials on Huggingface:
+
 •	https://huggingface.co/docs/transformers/model_doc/encoder-decoder
+
 •	https://huggingface.co/docs/transformers/tasks/summarization
 and also took as a basis the data code in the model description of roberta2roberta-cnn_dailymail-fp16:
+
 •	https://huggingface.co/patrickvonplaten/roberta2roberta-cnn_dailymail-fp16
 
 
