@@ -14,12 +14,12 @@ and also took as a basis the data code in the model description of roberta2rober
 The choice of English and Russian datasets was based on the need to reflect the different linguistic structures and cultural nuances inherent in news articles and their summaries. The original intention was that by using both languages in the training process, it would be possible to better account for the differences in syntax, vocabulary, and stylistic techniques present in these texts. It was also tempting to see how the model would cope with languages using different writing systems (in this case Cyrillic and Latin).
 
 
-Model
+**Model**
 
 •	XLM-RoBERTa (base-sized model)
 https://huggingface.co/FacebookAI/xlm-roberta-base
 
-Datasets
+**Datasets**
 
 •	CNN Dailymail Dataset
 
@@ -29,4 +29,7 @@ https://huggingface.co/datasets/cnn_dailymail
 
 https://huggingface.co/datasets/IlyaGusev/gazeta
 
+**Quantity of data used for the project**
+
+Since both of the datasets I used have a large volume, I was forced to use only a small portion of them. For fine-tuning, I used a proportional amount for both English and Russian datasets, which were subsequently merged. I took 1500 (train) and 300 (validation) text examples from both English and Russian datasets for fine tuning and evaluated on 300 examples from each dataset.
 
