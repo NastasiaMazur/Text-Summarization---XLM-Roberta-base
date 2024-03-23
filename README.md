@@ -13,6 +13,8 @@ and also took as a basis the data code in the model description of roberta2rober
 
 The choice of English and Russian datasets was based on the need to reflect the different linguistic structures and cultural nuances inherent in news articles and their summaries. The original intention was that by using both languages in the training process, it would be possible to better account for the differences in syntax, vocabulary, and stylistic techniques present in these texts. It was also tempting to see how the model would cope with languages using different writing systems (in this case Cyrillic and Latin).
 
+![TextSummarization](https://github.com/NastasiaMazur/Text-Summarization---XLM-Roberta-base/assets/82418628/8818ba0d-4ab3-4432-8485-83194c11d7f5)
+
 
 **Model**
 
